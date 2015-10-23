@@ -1,3 +1,2 @@
 # sim-admin
-a simple front-end framework 
-中文测试
+为晨讯公司系统部设计的前端解决方案。

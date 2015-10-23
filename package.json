@@ -1,0 +1,28 @@
+{
+  "name": "sim-admin",
+  "version": "0.0.1",
+  "description": "a simple ui toolkit.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinan5694/sim-admin.git"
+  },
+  "keywords": [
+    "sim",
+    "admin",
+    "ui"
+  ],
+  "author": "jinan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinan5694/sim-admin/issues"
+  },
+  "homepage": "https://github.com/jinan5694/sim-admin#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
