@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 * 编译类别 nested expanded compact compressed
 */ 
 gulp.task('sass', function () {
-  gulp.src('./sass/**/*.scss')
+  gulp.src('./scss/**/*.scss')
     .pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
     .pipe(gulp.dest('./css'));
 });

@@ -1,5 +1,5 @@
 {
-  "name": "sim-admin",
+  "name": "base-css",
   "version": "0.0.1",
   "description": "a simple ui toolkit.",
   "main": "index.html",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinan5694/sim-admin.git"
+    "url": "git+https://github.com/jinan5694/base-css.git"
   },
   "keywords": [
     "sim",
@@ -18,9 +18,9 @@
   "author": "jinan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jinan5694/sim-admin/issues"
+    "url": "https://github.com/jinan5694/base-css/issues"
   },
-  "homepage": "https://github.com/jinan5694/sim-admin#readme",
+  "homepage": "https://github.com/jinan5694/base-css#readme",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-sass": "^2.0.4"

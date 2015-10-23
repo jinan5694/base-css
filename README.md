@@ -1,2 +1,13 @@
-# sim-admin
-为晨讯公司系统部设计的前端解决方案。
+# base-css
+为项目设计阶段提供的基础样式模板
+
+基于sass开发，可定制化
+积累优秀的代码，提高工程质量
+
+# 如何使用
+
+# 1、npm install
+# 2、gulp sass // 编译一次
+# 3、gulp sass:watch // 实时编译
+
+## 在example目录中查看基础样式

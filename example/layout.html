@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>layout-example</title>
+	<link rel="stylesheet" href="../css/sim.css">
+	<style>
+		.columns {
+			margin-top: 10px;
+		}
+		.column {
+			border: 1px solid #ccc;
+			text-align: center;
+			padding: 10px 0;
+			background-color: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>this is a container.</h1>
+		
+		<!-- columns 2 -->
+		<div class="columns">
+			<div class="column one-half">两列</div>
+			<div class="column one-half">两列</div>
+		</div>
+		<!-- columns 3 -->
+		<div class="columns">
+			<div class="one-third column">三列</div>
+			<div class="one-third column">三列</div>
+			<div class="one-third column">三列</div>
+		</div>
+
+		<div class="columns">
+			<div class="one-fourth column">四列</div>
+			<div class="one-half column">四列</div>
+			<div class="one-fourth column">四列</div>
+		</div>
+	</div>
+</body>
+</html>
