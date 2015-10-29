@@ -11,3 +11,5 @@
 # 3、gulp sass:watch // 实时编译
 
 ## 在example目录中查看基础样式
+
+注意：新项目需要安装node-sass 模块，需要翻墙。
