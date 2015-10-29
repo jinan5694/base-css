@@ -1,7 +1,7 @@
 {
   "name": "base-css",
   "version": "0.0.1",
-  "description": "a simple ui toolkit.",
+  "description": "a simple css toolkit.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/jinan5694/base-css.git"
   },
   "keywords": [
-    "sim",
-    "admin",
-    "ui"
+    "sass",
+    "css",
+    "base"
   ],
   "author": "jinan",
   "license": "ISC",
@@ -21,10 +21,6 @@
     "url": "https://github.com/jinan5694/base-css/issues"
   },
   "homepage": "https://github.com/jinan5694/base-css#readme",
-  "dependencies": {
-    "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.4"
-  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-sass": "^2.0.4",
