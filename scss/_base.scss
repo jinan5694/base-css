@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 
+// 调整为1.5倍行高
 input,
 select,
 textarea,
 button {
-  font: #{$body-font-size}/1.4 $body-font;
+  font: #{$body-font-size}/1.5 $body-font;
 }
 
 body {
-  font: #{$body-font-size}/1.4 $body-font;
+  font: #{$body-font-size}/1.5 $body-font;
   color: $brand-gray-dark;
   background-color: #fff;
 }

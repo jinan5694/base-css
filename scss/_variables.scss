@@ -12,10 +12,13 @@ $brand-orange:     #c9510c !default;
 $brand-purple:     #6e5494 !default;
 
 // Font stack
-$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$body-font: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 
 // The base body size
-$body-font-size: 13px !default;
+// $body-font-size: 13px !default;
+$body-font-size: 12px !default;
+$base-font-size: 14px !default;
 
 // Monospace font stack
 $mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;

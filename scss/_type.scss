@@ -12,11 +12,14 @@ h6 {
   line-height: 1.1;
 }
 
+// 将 h2 高度从 21 调整为 24， 将 h6 高度从 11 调整为 12
 h1 { font-size: 30px; }
-h2 { font-size: 22px; }
+// h2 { font-size: 21px; }
+h2 { font-size: 24px; }
 h3 { font-size: 16px; }
 h4 { font-size: 14px; }
 h5 { font-size: 12px; }
+// h6 { font-size: 11px; }
 h6 { font-size: 12px; }
 
 

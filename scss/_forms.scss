@@ -8,8 +8,10 @@ fieldset {
   border: 0;
 }
 
+// 调整 label 字体大小为 12px
 label {
-  font-size: 13px;
+  // font-size: 13px;
+  font-size: $base-font-size;
   font-weight: bold;
 }
 
@@ -24,7 +26,8 @@ select,
 textarea {
   min-height: 34px;
   padding: 7px 8px;
-  font-size: 13px;
+  // font-size: 13px;
+  font-size: $base-font-size;
   color: #333;
   vertical-align: middle;
   background-color: #fff;

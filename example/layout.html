@@ -3,15 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>layout-example</title>
-	<link rel="stylesheet" href="../css/sim.css">
+	<link rel="stylesheet" href="../css/primer.css">
 	<style>
 		.columns {
 			margin-top: 10px;
 		}
-		.column {
+		.columns div {
 			border: 1px solid #ccc;
 			text-align: center;
-			padding: 10px 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
 			background-color: #eee;
 		}
 	</style>
@@ -19,7 +20,9 @@
 <body>
 	<div class="container">
 		<h1>this is a container.</h1>
-		
+		<div class="columns">
+			<div class="single-column">一列</div>
+		</div>
 		<!-- columns 2 -->
 		<div class="columns">
 			<div class="column one-half">两列</div>
@@ -27,15 +30,22 @@
 		</div>
 		<!-- columns 3 -->
 		<div class="columns">
-			<div class="one-third column">三列</div>
-			<div class="one-third column">三列</div>
-			<div class="one-third column">三列</div>
+			<div class="column one-third">三列</div>
+			<div class="column two-thirds">三列</div>
 		</div>
 
 		<div class="columns">
-			<div class="one-fourth column">四列</div>
-			<div class="one-half column">四列</div>
-			<div class="one-fourth column">四列</div>
+			<div class="column one-fourth">四列</div>
+			<div class="column three-fourths">四列</div>
+		</div>
+
+		<div class="columns">
+			<div class="column one-fifth">五列</div>
+			<div class="column four-fifths">五列</div>
+		</div>
+		<div class="columns">
+			<div class="column two-fifths">五列</div>
+			<div class="column three-fifths">五列</div>
 		</div>
 	</div>
 </body>
