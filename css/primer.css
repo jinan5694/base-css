@@ -533,6 +533,12 @@ pre {
 .four-fifths {
   width: 80%; }
 
+.one-sixth {
+  width: 16.666666%; }
+
+.five-sixths {
+  width: 83.333334%; }
+
 .single-column {
   padding-right: 10px;
   padding-left: 10px; }

@@ -2,73 +2,82 @@
 <html lang="zh">
 <head>
 	<meta charset="utf-8">
-	<title>mk</title>
+	<title>mk-css-structure</title>
 	<link rel="stylesheet" href="../css/primer.css">
-	<style>
-		.bg {
-			background: url(img/manage-bg.jpg) top center no-repeat;
-			background-size: auto 100%;
-			height: 1000px;
-			min-width: 1200px;
-			padding-top: 120px;
-		}
-		.bg2 {
-			background-color: #ccc;
-		}
-		.logo {
-			width: 170px;
-			height: 70px;
-			background: url(img/logo2.png) no-repeat;
-			margin-bottom: 20px;
-		}
-		.main {
-			margin-top: 10px;
-			background:rgba(0, 0, 0, 0.3);
-			min-height: 600px;
-			padding: 10px;
-		}
-	</style>
+	<link rel="stylesheet" href="./css/mk.css">
 </head>
+<!-- body 的 bg ，或者新建个div承载，用于设置页面的背景，背景色等 -->
 <body class="bg">
+	<!-- container ，页面固定宽度的主体，1200宽 -->
 	<div class="container">
+		<!-- layout -->
 		<div class="columns">
+			<!-- 1-5 -->
 			<div class="column one-fifth">
+				<!-- logo 可通过背景设置logo图片 -->
 				<div class="logo">
-					<a href="">
-						<img src="" alt="">
-					</a>
+					<a href="#"></a>
 				</div>
-				<nav class="menu">
-				  <a class="menu-item selected" href="#">公告中心</a>
-				  <a class="menu-item" href="#">作业中心</a>
-				  <a class="menu-item" href="#">权限中心</a>
-				</nav>
-			</div>
-			<div class="column four-fifths">
-				<div class="nav">
-					<a class="btn" href="#" role="button">门客概况</a>
-					<a class="btn" href="#" role="button">门客大事记</a>
-					<a class="btn" href="#" role="button">工作提醒</a>
-					<a class="btn" href="#" role="button">内部交流</a>
-					<a class="btn" href="#" role="button">招聘信息</a>
-					<a class="btn" href="#" role="button">投票通知</a>
-				</div>
-				<!-- main -->
-				<div class="main">
-					<div class="nav">
-						<a class="btn" href="#" role="button">门客概况</a>
-						<a class="btn" href="#" role="button">门客大事记</a>
-						<a class="btn" href="#" role="button">工作提醒</a>
-						<a class="btn" href="#" role="button">内部交流</a>
-						<a class="btn" href="#" role="button">招聘信息</a>
-						<a class="btn" href="#" role="button">投票通知</a>
+				<!-- 侧边栏 -->
+				<div class="slidebar">
+					<div class="menu">
+					  <a class="menu-item selected" href="#">公告中心</a>
+					  <a class="menu-item" href="#">作业中心</a>
+					  <a class="menu-item" href="#">权限中心</a>
 					</div>
-
+				</div>
+			</div>
+			<!-- 中间部分 4-5 -->
+			<div class="column four-fifths">
+				<!-- 一级导航 btn只是临时的样式，重点在于nav 和 nav-item -->
+				<div class="nav">
+					<a href="" class="btn nav-item selected">门客概况</a>
+					<a href="" class="btn nav-item">门客大事记</a>
+					<a href="" class="btn nav-item">工作提醒</a>
+					<a href="" class="btn nav-item">内部交流</a>
+					<a href="" class="btn nav-item">招聘信息</a>
+					<a href="" class="btn nav-item">投票通知</a>
+				</div>
+				
+				<!-- main 设置主体背景颜色 -->
+				<div class="main">
+					<!-- 子导航 -->
+					<div class="subnav">
+						<a class="btn subnav-item selected" href="#" role="button">枢密院</a>
+						<a class="btn subnav-item" href="#" role="button">六部</a>
+						<a class="btn subnav-item" href="#" role="button">舵组织</a>
+						<a class="btn subnav-item" href="#" role="button">职能司</a>
+						<a class="btn subnav-item" href="#" role="button">落地堂</a>
+					</div>
+					<!-- tab菜单 -->
 					<div class="tabnav">
 					  <nav class="tabnav-tabs">
-					    <a href="#" class="tabnav-tab selected">Foo tab</a>
-					    <a href="#" class="tabnav-tab">Bar tab</a>
+					    <a href="#" class="tabnav-tab selected">枢密院</a>
+					    <a href="#" class="tabnav-tab">枢密院</a>
 					  </nav>
+					</div>
+					<!-- content  主体内容。如表格，表单等 -->
+					<div class="content">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>1</th>
+									<th>2</th>
+									<th>3</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- 分页 -->
+						<div class="page">
+							分页内容在这里
+						</div>
 					</div>
 					
 				</div>
