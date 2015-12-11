@@ -11,6 +11,13 @@ $brand-red:        #bd2c00 !default;
 $brand-orange:     #c9510c !default;
 $brand-purple:     #6e5494 !default;
 
+$brand-btn:         #f90 !default;
+$brand-btn-light:   #ecb15a !default;
+$brand-btn-dark:    #c2780b !default;
+$brand-btn-light-x: #f69605 !default;
+
+$brand-black: #3b3b3b;
+
 // Font stack
 // $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $body-font: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
@@ -35,3 +42,33 @@ $status-pending:  #cea61b;
 $repo-private-text: #a1882b;
 $repo-private-bg:   #fff9ea;
 $repo-private-icon: #e9dba5;
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+
+//** Padding for `<th>`s and `<td>`s.
+$table-cell-padding:            8px !default;
+//** Padding for cells in `.table-condensed`.
+$table-condensed-cell-padding:  5px !default;
+
+//** Default background color used for all tables.
+$table-bg:                      transparent !default;
+//** Background color used for `.table-striped`.
+$table-bg-accent:               #f9f9f9 !default;
+//** Background color used for `.table-hover`.
+$table-bg-hover:                #f5f5f5 !default;
+$table-bg-active:               $table-bg-hover !default;
+
+//** Border color for table and cell borders.
+$table-border-color:            #ddd !default;
+
+$line-height-computed: 30px !default;
+$line-height-base: 30px !default;
+
+$img-path: '../img';
+$img-bg: 'manage-bg.jpg';
+$img-logo: "logo2.png";
+
+// form width
+$form-width: 350px;

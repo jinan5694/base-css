@@ -1,0 +1,75 @@
+// 搜索区域的样式
+
+.search {
+	margin-bottom: 10px;
+	text-align: right;
+	.btn {
+		background-color: $brand-black;
+		color: #fff;
+		background-color: $brand-black;
+  	background-image: linear-gradient($brand-black, $brand-black);
+  	border: 1px solid $brand-black;
+  	margin-left: 5px;
+
+  	&:focus {
+  	  text-decoration: none;
+  	  border-color: $brand-black;
+  	  outline: none;
+  	  box-shadow: 0 0 5px rgba(81, 167, 232, 0.5);
+  	}
+
+  	&:focus:hover,
+  	&.selected:focus {
+  	  border-color: $brand-black;
+  	}
+
+  	&:hover,
+  	&:active,
+  	&.zeroclipboard-is-hover,
+  	&.zeroclipboard-is-active {
+  	  text-decoration: none;
+  	  background-color: $brand-black;
+  	  background-image: linear-gradient($brand-black, $brand-black);
+  	  border-color: #333;
+  	}
+
+  	&:active,
+  	&.selected,
+  	&.zeroclipboard-is-active {
+  	  background-color: $brand-black;
+  	  background-image: none;
+  	  border-color: $brand-black;
+  	  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+  	}
+
+  	&.selected:hover {
+  	  background-color: darken($brand-black, 5%);
+  	}
+	}
+	.btn-search {
+		width: 50px;
+		background: $brand-black url(#{$img-path}/search-icon.png) center center no-repeat;
+		&:hover,
+		&:active {
+			background: $brand-black url(#{$img-path}/search-icon.png) center center no-repeat;
+		}
+	}
+
+	dl {
+		display: inline-block;
+		dt {
+			display: inline-block;
+			label {
+				color: #fff;
+				padding-right: 5px;
+			}
+		}
+		dd {
+			display: inline-block;
+			margin-right: 5px;
+			.input {
+				padding: 5px 8px;
+			}
+		}
+	}
+}

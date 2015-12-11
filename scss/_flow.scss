@@ -1,0 +1,36 @@
+// 流程管理
+
+.config-item {
+	@include clearfix;
+
+	margin-top: 10px;
+	color: #246;
+  background-color: #e2eef9;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+	dl {
+		width: 25%;
+		float: left;
+		padding: 0 10px;
+
+		> dt > label {
+			font-size: 14px;
+		}
+	}
+
+	.opts {
+		clear: both;
+		text-align: right;
+		line-height: 30px;
+		a {
+			padding: 0 5px;
+		}
+	}
+}
+
+.config-item:first-child a.move-up {
+	display: none;
+}
+.config-item:last-child a.move-down {
+	display: none;
+}

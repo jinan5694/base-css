@@ -23,6 +23,11 @@
 @import "utility";
 
 // Components
+@import "bg";
+@import "slidebar";
+@import "nav";
+@import "search";
+@import "table";
 @import "alerts";
 @import "avatars";
 @import "blankslate";
@@ -33,6 +38,7 @@
 @import "filter-list";
 @import "states";
 @import "tooltips";
+@import "flow";
 
 // Utilities
 @import "flex-table";

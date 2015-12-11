@@ -1,0 +1,93 @@
+// 右侧一级和二级导航
+// 一级导航
+.nav {
+	margin-bottom: 10px;
+	min-height: 52px;
+
+	.item {
+		display: inline-block;
+		width: 150px;
+		height: 52px;
+		margin-right: 6px;
+		background: url(#{$img-path}/menu-sec-bg.png) 0 0 no-repeat;
+    line-height: 52px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #fff;
+
+		&:hover,
+		&.selected {
+			text-decoration: none;
+			color: $brand-btn;
+		}
+	}
+}
+// 二级导航
+.sub-nav {
+	margin-bottom: 10px;
+	.item {
+		display: inline-block;
+		width: 152px;
+		height: 78px;
+		margin-right: 6px;
+		background: url(#{$img-path}/menu-thi-bg.png) 0 0 no-repeat;
+    line-height: 85px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+
+		&:hover,
+		&.selected {
+			text-decoration: none;
+			color: $brand-btn;
+		}
+	}
+}
+// tab导航
+.tab-nav {
+	margin-bottom: 10px;
+	.item {
+		display: inline-block;
+		padding: 0 20px;
+		height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+
+		&:hover,
+		&.selected {
+			text-decoration: none;
+			color: $brand-btn;
+		}
+	}
+}
+
+// 一级导航
+.member-nav {
+	margin-bottom: 10px;
+	min-height: 52px;
+
+	.item {
+		display: inline-block;
+		width: 150px;
+		height: 52px;
+		margin-right: 6px;
+		background: url(#{$img-path}/bg.png) 0 0 no-repeat;
+    line-height: 52px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #fff;
+
+		&:hover,
+		&.selected {
+			text-decoration: none;
+			color: $brand-btn;
+		}
+	}
+}

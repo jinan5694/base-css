@@ -39,9 +39,3 @@
 	min-height: 600px;
 	padding: 10px;
 }
-
-/*表格的样式重置，我就不写了*/
-.table {
-	width: 100%;
-	background-color: #fff;
-}

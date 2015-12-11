@@ -128,6 +128,16 @@ dl.form {
 
   &.flattened > dd {
     line-height: 32px;
+    margin-left: 150px;
+    p {
+      margin: 5px 0;
+    }
+  }
+
+  &.flattened > span {
+    margin-left: 150px;
+    line-height: 30px;
+    color: #bd2c00;
   }
 
   //
@@ -140,9 +150,13 @@ dl.form {
     input[type="password"],
     input[type="email"],
     input[type="url"] {
-      width: 440px;
+      width: $form-width;
       max-width: 100%;
       margin-right: 5px;
+
+      &.error {
+        border-color: #bd2c00;
+      }
     }
 
     input {
@@ -163,6 +177,10 @@ dl.form {
         height: 50px;
         min-height: 50px;
       }
+
+      &.error {
+        border-color: #bd2c00;
+      }
     }
 
     h4 {
@@ -182,45 +200,45 @@ dl.form {
   // Variants
   //
 
-  &.required {
-    > dt > label:after {
-      padding-left: 5px;
-      color: #9f1006;
-      content: "*";
-    }
-  }
+  // &.required {
+  //   > dt > label:after {
+  //     padding-left: 5px;
+  //     color: #9f1006;
+  //     content: "*";
+  //   }
+  // }
 
-  // Form AJAX states
-  //
-  // Form fields that need feedback for AJAX loading, success
-  // states and errored states.
-  .success,
-  .error,
-  .indicator {
-    display: none;
-    font-size: 12px;
-    font-weight: bold;
-  }
+  // // Form AJAX states
+  // //
+  // // Form fields that need feedback for AJAX loading, success
+  // // states and errored states.
+  // .success,
+  // .error,
+  // .indicator {
+  //   display: none;
+  //   font-size: 12px;
+  //   font-weight: bold;
+  // }
 
-  &.loading {
-    opacity: 0.5;
+  // &.loading {
+  //   opacity: 0.5;
 
-    .indicator {
-      display: inline;
-    }
+  //   .indicator {
+  //     display: inline;
+  //   }
 
-    .spinner {
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
+  //   .spinner {
+  //     display: inline-block;
+  //     vertical-align: middle;
+  //   }
+  // }
 
-  &.successful {
-    .success {
-      display: inline;
-      color: #390;
-    }
-  }
+  // &.successful {
+  //   .success {
+  //     display: inline;
+  //     color: #390;
+  //   }
+  // }
 
   // Form validation
   //
@@ -536,6 +554,11 @@ input::-webkit-inner-spin-button {
   &::-ms-expand {
     opacity: 0;
   }
+
+  // validate
+  &.error {
+    border-color: #bd2c00;
+  }
 }
 
 .select-sm {
@@ -547,4 +570,21 @@ input::-webkit-inner-spin-button {
     height: 26px;
     min-height: 26px;
   }
+}
+
+// mk css
+dl.form > dt {
+  padding-right: 15px;
+  width: 150px;
+  text-align: right;
+}
+dl.form > dd textarea {
+  width: $form-width;
+}
+.select {
+  width: $form-width;
+}
+input[type="checkbox"], input[type="radio"] {
+  vertical-align: middle;
+  margin-right: 5px;
 }

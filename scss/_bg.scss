@@ -1,0 +1,137 @@
+.bg {
+	background: url(#{$img-path}/#{$img-bg}) top center no-repeat;
+	background-size: auto 100%;
+	height: 1000px;
+	min-width: 1200px;
+	padding-top: 120px;
+}
+
+.bg-dept {
+	background: url(#{$img-path}/department-bg.jpg) top center no-repeat;
+	background-size: auto 100%;
+	height: 1000px;
+	min-width: 1200px;
+	padding-top: 120px;
+}
+
+
+.logo {
+	width: 170px;
+	height: 70px;
+	background: url(#{$img-path}/#{$img-logo}) no-repeat;
+	a {
+		display: inline-block;
+		width: 170px;
+		height: 70px;
+	}
+}
+
+.logo-member {
+	width: 170px;
+	height: 70px;
+	background: url(#{$img-path}/logo_member_center.png) no-repeat;
+	a {
+		display: inline-block;
+		width: 170px;
+		height: 70px;
+	}
+}
+
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background:rgba(0, 0, 0, 0.3);
+	min-height: 600px;
+	padding: 10px;
+}
+
+.modal-content {
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+// 可关闭的标签
+.member-item {
+	height: 40px;
+	margin-bottom: 5px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #246;
+  background-color: #e2eef9;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+
+  i {
+  	float: right;
+  	width: 12px;
+  	height: 12px;
+  	margin-top: 4px;
+  	cursor: pointer;
+  	background: url(#{$img-path}/i_close.png) 0 0 no-repeat;
+  	&:hover {
+  		background: url(#{$img-path}/i_close.png) 0 -12px no-repeat;
+  	}
+  }
+}
+
+// grogress
+.progressbar {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 100px;
+  height: 34px;
+	width: 250px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #ddd;
+
+  .bar {
+  	height: 18px; 
+  	background: #6cc644;
+  }
+}
+
+.file-item {
+	width: 350px;
+	height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #246;
+  background-color: #e2eef9;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+
+  i {
+  	float: right;
+  	width: 12px;
+  	height: 12px;
+  	margin-top: 4px;
+  	cursor: pointer;
+  	background: url(#{$img-path}/i_close.png) 0 0 no-repeat;
+  	&:hover {
+  		background: url(#{$img-path}/i_close.png) 0 -12px no-repeat;
+  	}
+  }
+}
+#file_items {
+	width: 100%;
+	min-height: 40px;
+}
+
+.top-bar {
+	position: absolute;
+  max-width: 1200px;
+  width: 100%;
+  text-align: right;
+  margin-top: -80px;
+
+  a {
+  	font-size: 14px;
+  	color: #fff;
+  }
+}
